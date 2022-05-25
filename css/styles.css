@@ -83,14 +83,14 @@ a {
   width: 320px;
 }
 
-button {
+.mid-button-click {
   background: #3882f6;
   color: #f9faf8;
   font-weight: bold;
-  width: 110px;
-  padding: 5px;
+  padding: 10px 30px;
   margin-top: 15px;
   border-radius: 10px;
+  border-color: #3882f6;
 }
 
 .mid-web .box-left h1 {
@@ -172,4 +172,40 @@ button {
 .gray-assinature {
   font-size: 24px;
   color: black;
+}
+
+.cta-section {
+  height: 150px;
+}
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 0 400px;
+  height: 90px;
+  margin-top: 55px;
+  padding: 50px;
+}
+
+.cta-call {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 50px;
+  color: white;
+}
+.sign-up-blue-box {
+  display: flex;
+  font-size: large;
+  padding: 30px;
+}
+
+.sign-up-button-blue-box {
+  padding: 10px 20px;
+  border-color: white;
+  font-weight: bold;
+  border-width: 2px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
 }
