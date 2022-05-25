@@ -209,3 +209,20 @@ a {
   border-radius: 10px;
   color: white;
 }
+
+.footer-div {
+  display: flex;
+  background-color: #1f2937;
+  height: 100px;
+}
+
+.footer-text {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: white;
+}
