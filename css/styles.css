@@ -4,6 +4,22 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+html,
+body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  max-width: 1940px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
 
 .header {
   height: 6vh;
@@ -17,11 +33,11 @@
 .header-logo {
   display: flex;
   position: absolute;
-  left: 10%;
+  left: 14.3%;
   flex: 1;
   font-size: 24px;
   color: #f9faf8;
-  margin-top: 5px;
+  margin-top: 8px;
   justify-content: center;
 }
 .header-links {
@@ -31,7 +47,7 @@
   align-items: center;
   font-size: 18px;
   position: absolute;
-  right: 8%;
+  right: 20%;
   top: 15px;
 }
 .header-link {
@@ -47,26 +63,24 @@ a {
 }
 
 .mid-web {
-  height: 40vh;
   background-color: #1f2937;
   display: flex;
   color: #f9faf8;
-  justify-content: space-between;
   flex: 1;
-  padding-left: 104px;
-  padding-right: 100px;
+  justify-content: center;
   padding-top: 60px;
-}
-
-img {
-  max-width: 280px;
+  padding-bottom: 45px;
 }
 
 .box-left {
-  justify-content: space-around;
-  max-width: 400px;
+  flex: 1;
+  max-width: 500px;
   font-size: 18px;
-  padding-top: 20px;
+  padding-right: 100px;
+}
+
+.img-mid {
+  width: 320px;
 }
 
 button {
@@ -77,4 +91,85 @@ button {
   padding: 5px;
   margin-top: 15px;
   border-radius: 10px;
+}
+
+.mid-web .box-left h1 {
+  padding-bottom: 20px;
+}
+
+.random-info {
+  padding-bottom: 40px;
+  background-color: whitesmoke;
+}
+
+.random-info-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.boxes-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.divbox1 .divbox2 .divbox3 .divbox4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-info {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 15px;
+  border-color: #3882f6;
+  border-style: solid;
+}
+.p-random-info {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.gray-box {
+  display: flex;
+  flex: 1;
+  background-color: #e5e7eb;
+  color: #f9faf8;
+  justify-content: center;
+  padding: 65px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.gray-assinature {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+.gray-assinature {
+  font-size: 24px;
+  color: black;
 }
